@@ -1,0 +1,25 @@
+# Ignore all files, except .gitignore files.
+*
+!.gitignore
+
+
+# Example: uploads sub-folder "box" for table "boxes"
+
+# Tell Git to NOT ignore your upload folders that correspond with your DB tables,
+# Then tell Git to ignore all files in those folders
+!/uploads/
+/uploads/*
+
+# Tell Git to NOT ignore your EACH seed file in your your upload folders.
+!images
+!logo.jpg
+!1.jpg
+!2.jpg
+!3.jpg
+
+!sheets
+!1.pdf
+!2.pdf
+!3.pdf
+!4.pdf
+!5.pdf
